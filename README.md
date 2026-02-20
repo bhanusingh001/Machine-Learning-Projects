@@ -30,4 +30,3 @@ A collection of end-to-end Machine Learning projects with premium Streamlit web 
    ```
 
 ---
-Made with ❤️ by Bhanu
