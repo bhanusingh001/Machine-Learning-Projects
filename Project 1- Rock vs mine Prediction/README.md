@@ -67,7 +67,7 @@ The project includes a **premium Streamlit web app** with a dark glassmorphism U
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/bsingh0001/Rock-vs-Mine-Prediction.git
+git clone https://github.com/bhanusingh001/Machine-Learning-Projects.git
 cd Rock-vs-Mine-Prediction
 ```
 
