@@ -2,6 +2,8 @@
 
 > **Classify underwater objects as Rocks or Mines using Sonar signals & Machine Learning**
 
+[**🚀 View Live App**](https://rock-vs-mine-predictionn.streamlit.app/)
+
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
