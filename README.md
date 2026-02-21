@@ -7,6 +7,7 @@ A collection of end-to-end Machine Learning projects with premium Streamlit web 
 | Project | Description | Link |
 |---------|-------------|------|
 | [🔊 Rock vs Mine Prediction](./Project_1_Rock_vs_Mine_Prediction) | Classify underwater objects using Sonar signals. | [Live App](https://rock-vs-mine-predictioonn.streamlit.app/) |
+| [🩸 Diabetes Prediction Pro](./Project_2_Diabetes_Prediction) | Comparing multiple AI models for accurate health predictions. | [Live App](https://diabetes-predicction.streamlit.app/) |
 
 ---
 
