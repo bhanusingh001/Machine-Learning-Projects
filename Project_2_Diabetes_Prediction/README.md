@@ -2,7 +2,7 @@
 
 > **Predict the onset of Diabetes based on clinical diagnostic measures using Machine Learning**
 
-[**🚀 View Live App**](https://your-streamlit-app-link-here.streamlit.app/) *(Add your Streamlit Cloud link here after deployment)*
+[**🚀 View Live App**](https://diabetes-predicction.streamlit.app/)
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
@@ -161,7 +161,6 @@ Project_2_Diabetes_Prediction/
 ## 🤝 Credits
 
 - **Dataset:** PIMA Indians Diabetes Database (UCI Machine Learning Repository)
-- **Tutorial Reference:** [Siddhardhan — ML Project Series](https://www.youtube.com/watch?v=xUE7SjVx9bQ&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6&index=2)
 - **Built with:** [Streamlit](https://streamlit.io), [Scikit-learn](https://scikit-learn.org)
 
 ---
@@ -173,7 +172,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ by <b>Bhanu</b>
+  Made with ❤️ 
   <br>
   ⭐ Star this repo if you found it helpful!
 </p>
