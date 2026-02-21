@@ -19,7 +19,7 @@ A collection of end-to-end Machine Learning projects with premium Streamlit web 
    ```
 2. Navigate to a project folder:
    ```bash
-   cd Project_1_Rock_vs_Mine_Prediction
+   cd  <Project_folder_name>
    ```
 3. Install dependencies:
    ```bash
