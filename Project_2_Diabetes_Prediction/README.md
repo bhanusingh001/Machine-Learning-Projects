@@ -13,9 +13,15 @@
 
 ## 📋 Overview
 
-This project uses a **Support Vector Machine (SVM)** to predict whether an individual is at high risk of Diabetes based on 8 clinical diagnostic metrics. The system analyzes features such as Glucose levels, BMI, Age, and Blood Pressure to provide accurate and quick assessments.
+This project uses an advanced **Multi-Model Machine Learning Ensemble** to predict whether an individual is at high risk of Diabetes based on 8 clinical diagnostic metrics. Instead of relying on a single algorithm, the system evaluates the patient using three distinct "AI Brains":
 
-The project includes a **premium, sleek Streamlit web app** featuring a modern, light blue interface, designed for clarity and ease of use in medical contexts.
+1.  **Support Vector Machine (SVM):** Provides a balanced, geometry-based decision boundary.
+2.  **Random Forest Classifier:** Uses a voting system of decision trees for high accuracy and complex pattern recognition.
+3.  **Logistic Regression:** Acts as a stable, statistical baseline.
+
+By calculating a **Risk Probability** from all three models simultaneously, the application generates an **AI Consensus**, allowing medical professionals to see exactly how confident the algorithms are when assessing metrics like Glucose levels, BMI, Age, and Blood Pressure.
+
+The project is presented through a **premium, sleek Streamlit web app** featuring a modern, light blue interface, designed for clarity and ease of use in medical contexts.
 
 ---
 
@@ -23,9 +29,10 @@ The project includes a **premium, sleek Streamlit web app** featuring a modern, 
 
 | Feature | Description |
 |---------|-------------|
-| 🧠 **ML Model** | Support Vector Machine (Linear Kernel) trained on the PIMA Indians dataset |
-| 🌐 **Web App** | Premium, light blue modern Streamlit interface |
-| 📊 **Dashboard** | Real-time predictive analytics and health parameter tracking |
+| 🧠 **Multi-Model ML** | Ensemble of Random Forest, SVM, and Logistic Regression algorithms |
+| 🌐 **Web App** | Premium, light blue modern Streamlit interface with Model Selector |
+| 📊 **Pro Dashboard** | Patient Health Benchmark charts comparing data to the global dataset median |
+| ⚖️ **AI Consensus** | Visual Risk Confidence meters (0-100%) showing agreement across all 3 models |
 | 🎯 **Dual Input** | Test with historical sample data or evaluate custom patient cases |
 | 📱 **Responsive** | Works flawlessly on desktop and mobile browsers |
 | 🚀 **Deploy Ready** | One-click deployment to Streamlit Cloud |
@@ -35,7 +42,7 @@ The project includes a **premium, sleek Streamlit web app** featuring a modern, 
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.x
-- **ML Library:** Scikit-learn (SVM + StandardScaler)
+- **ML Library:** Scikit-learn (RandomForestClassifier, SVC, LogisticRegression + StandardScaler)
 - **Web Framework:** Streamlit
 - **Data Processing:** NumPy, Pandas
 - **Deployment:** Streamlit Cloud
@@ -57,9 +64,10 @@ The project includes a **premium, sleek Streamlit web app** featuring a modern, 
 
 | Metric | Score |
 |--------|-------|
-| **Training Accuracy** | ~78% |
-| **Test Accuracy** | ~77% |
-| **Algorithm** | Support Vector Classifier (kernel='linear') |
+| **Best Model** | Random Forest Classifier |
+| **RF Train Accuracy** | 100% |
+| **RF Test Accuracy** | ~73% |
+| **SVM/LR Accuracy** | ~76% - 78% |
 | **Test Split** | 20% (stratified) |
 
 ---
@@ -138,8 +146,10 @@ The model expects **8 comma-separated numerical values**.
 ```text
 Project_2_Diabetes_Prediction/
 ├── app.py                  # Streamlit web application
-├── diabetes_model.py       # Model training script
-├── model.pkl               # Trained ML model (SVM)
+├── diabetes_model.py       # Script to train the 3-model ensemble
+├── model_rf.pkl            # Trained Random Forest model
+├── model_svm.pkl           # Trained Support Vector Machine model
+├── model_lr.pkl            # Trained Logistic Regression model
 ├── scaler.pkl              # Feature scaler (StandardScaler)
 ├── diabetes.csv            # Dataset containing patient records
 ├── requirements.txt        # Python dependencies
